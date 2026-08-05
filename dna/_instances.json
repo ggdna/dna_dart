@@ -1,0 +1,205 @@
+{
+  "version": 5,
+  "instances": [
+    {
+      "path": ".claude/skills/init/SKILL.md",
+      "hash": "0x0e505fab50995a94"
+    },
+    {
+      "path": ".claude/skills/new-project/SKILL.md",
+      "hash": "0xf863e80c14b5e980"
+    },
+    {
+      "path": ".claude/skills/new-ticket/SKILL.md",
+      "hash": "0xad3fcff3720d05a5"
+    },
+    {
+      "path": ".claude/skills/review/SKILL.md",
+      "hash": "0x345dd9e198274000"
+    },
+    {
+      "path": ".gitattributes",
+      "hash": "0x952452f8941a38ae"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "hash": "0x79b7ff336df1e7d9"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "hash": "0x500ad4f30bf50431"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "hash": "0x36e7e495e88a962c"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "hash": "0x1cb8187eefd90e3e"
+    },
+    {
+      "path": "LICENSE",
+      "hash": "0x6d0659858a6a574f"
+    },
+    {
+      "path": "doc/01_install/01_vscode.md",
+      "hash": "0xa0da6a6877bb94c2"
+    },
+    {
+      "path": "doc/01_install/02_brew_on_mac.md",
+      "hash": "0x3ff81d12cdc6150f"
+    },
+    {
+      "path": "doc/01_install/03a_node_mac.md",
+      "hash": "0x4f383295e3a43359"
+    },
+    {
+      "path": "doc/01_install/03b_node_win.md",
+      "hash": "0x782756eb0ff83a0d"
+    },
+    {
+      "path": "doc/01_install/04_corepack.md",
+      "hash": "0x607522ddd35d5d36"
+    },
+    {
+      "path": "doc/01_install/05_github_cli.md",
+      "hash": "0x2a3ec36184ebcf41"
+    },
+    {
+      "path": "doc/01_install/06_azure_cli.md",
+      "hash": "0x1400e2b8d76dfead"
+    },
+    {
+      "path": "doc/01_install/07_flutter.md",
+      "hash": "0xb295179e5d6a8cb9"
+    },
+    {
+      "path": "doc/01_install/08_gg.md",
+      "hash": "0x637f7197356a4128"
+    },
+    {
+      "path": "doc/01_install/09_gg_workspace.md",
+      "hash": "0x846766914bb56a84"
+    },
+    {
+      "path": "doc/03_develop/develop.md",
+      "hash": "0x25b391b205f176ac"
+    },
+    {
+      "path": "doc/04_tools/rename_classes.md",
+      "hash": "0x1eee03eab16f7e4b"
+    },
+    {
+      "path": "doc/04_tools/vscode_tips.md",
+      "hash": "0x255ba8c6052f38a3"
+    },
+    {
+      "path": "doc/conventions/code_conventions.md",
+      "hash": "0x6a8d57d7867e43bc"
+    },
+    {
+      "path": "doc/conventions/documentation_conventions.md",
+      "hash": "0xa87793664b406de4"
+    },
+    {
+      "path": "doc/conventions/test_conventions.md",
+      "hash": "0xe7ca8d4c89f66d63"
+    },
+    {
+      "path": "doc/guides/claude_code.md",
+      "hash": "0xe18e86905c716287"
+    },
+    {
+      "path": "doc/guides/dna.md",
+      "hash": "0x22688827c2159e16"
+    },
+    {
+      "path": "scripts/README.md",
+      "hash": "0x18eb11ecbaaff8e8"
+    },
+    {
+      "path": "scripts/add_version_tag.js",
+      "hash": "0x275d847adbc5f5d5"
+    },
+    {
+      "path": "scripts/copy_file.js",
+      "hash": "0xd200ca09da6315ae"
+    },
+    {
+      "path": "scripts/create_branch.js",
+      "hash": "0x8e354ba116818a7f"
+    },
+    {
+      "path": "scripts/delete_feature_branch.js",
+      "hash": "0xbf312639f559bca9"
+    },
+    {
+      "path": "scripts/functions/az_is_installed.js",
+      "hash": "0x0ee4de4f3d7c327a"
+    },
+    {
+      "path": "scripts/functions/colors.js",
+      "hash": "0x19f574314a81d26b"
+    },
+    {
+      "path": "scripts/functions/current_branch.js",
+      "hash": "0xe7de2221396ed914"
+    },
+    {
+      "path": "scripts/functions/directories.js",
+      "hash": "0xe1dbe3041c8031b9"
+    },
+    {
+      "path": "scripts/functions/get_repo_urls.js",
+      "hash": "0x02074fab96421ac1"
+    },
+    {
+      "path": "scripts/functions/get_version.js",
+      "hash": "0x075cbe4be6d0420f"
+    },
+    {
+      "path": "scripts/functions/gh_is_installed.js",
+      "hash": "0x41fcbaadab06624e"
+    },
+    {
+      "path": "scripts/functions/is_clean_repo.js",
+      "hash": "0x399b9dc8617b1c38"
+    },
+    {
+      "path": "scripts/functions/is_main_up_to_date.js",
+      "hash": "0x4f2c048392d63922"
+    },
+    {
+      "path": "scripts/functions/pull_request_url.js",
+      "hash": "0x8d5fe940800889c4"
+    },
+    {
+      "path": "scripts/functions/run_command.js",
+      "hash": "0x2aca5129280594e3"
+    },
+    {
+      "path": "scripts/functions/sync_folders.js",
+      "hash": "0x4947383e30ca3f93"
+    },
+    {
+      "path": "scripts/is_clean_repo.js",
+      "hash": "0x8326a6fd6704cd36"
+    },
+    {
+      "path": "scripts/print_pull_request_url.js",
+      "hash": "0x881b6e65f025eff8"
+    },
+    {
+      "path": "scripts/rename_class.js",
+      "hash": "0x816005625a3c2f74"
+    },
+    {
+      "path": "scripts/wait_for_pr.js",
+      "hash": "0x1ce957898a1c5dc5"
+    },
+    {
+      "path": "test/dna/dna_test.dart",
+      "hash": "0xf9bd1395d22cb1d6"
+    }
+  ]
+}
