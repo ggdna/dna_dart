@@ -2,7 +2,8 @@
   "files.exclude": {
     "**/.idea": true,
     "**/.symlinks": true,
-    "**/build": true
+    "**/build": true,
+    "**/node_modules": true
   },
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
@@ -38,19 +39,13 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.largeFileOptimizations": false,
   "workbench.editor.enablePreview": false,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmDelete": true,
   "explorer.confirmDragAndDrop": false,
   "problems.autoReveal": false,
   "debug.console.collapseIdenticalLines": false,
   "debug.inlineValues": "on",
-  "testing.defaultGutterClickAction": "run",
+  "testing.defaultGutterClickAction": "debug",
   "testing.automaticallyOpenPeekView": "never",
   "testing.automaticallyOpenTestResults": "neverOpen",
   "coverage-gutters.showGutterCoverage": false,
@@ -68,6 +63,7 @@
     "**/.symlinks": true,
     "**/*.o": true,
     "**/*.symlinks": true,
+    "**/node_modules": true,
     "**/.dart_tool": true
   },
   "search.useReplacePreview": false,
@@ -108,28 +104,6 @@
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
-  "[dot]": {
-    "editor.defaultFormatter": "tintinweb.graphviz-interactive-preview"
-  },
-  "spellright.language": [
-    "en",
-    "de"
-  ],
-  "spellright.languageContext": {
-    "strings": [
-      "en-US",
-      "de"
-    ],
-    "comments": [
-      "en-US",
-      "de"
-    ]
-  },
-  "spellright.documentTypes": [
-    "latex",
-    "plaintext",
-    "markdown"
-  ],
   "git.ignoreLimitWarning": true,
   "git.autoRepositoryDetection": false,
   "git.enableSmartCommit": true,
@@ -157,7 +131,7 @@
       "language": "xml",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
@@ -167,7 +141,7 @@
       "language": "html",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
@@ -177,7 +151,7 @@
       "language": "typescript",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
@@ -187,7 +161,7 @@
       "language": "javascript",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
@@ -197,7 +171,7 @@
       "language": "scss",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
@@ -207,7 +181,7 @@
       "language": "dart",
       "template": [
         "@license",
-        "Copyright (c) <<year>> ggsuite",
+        "Copyright (c) ggsuite",
         "",
         "Use of this source code is governed by terms that can be",
         "found in the LICENSE file in the root of this package."
