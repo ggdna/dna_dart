@@ -1,0 +1,48 @@
+{
+  // Merged into the base layer's .vscode/settings.json by gg_dna
+  // (objects deep-merge).
+
+  // #############
+  // Search
+  // #############
+
+  "search.exclude": {
+    "**/.dart_tool": true
+  },
+
+  // #############
+  // Dart
+  // #############
+
+  "dart.debugExternalLibraries": false,
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+
+  "dartImport.fixOnSave": true,
+  "dartImport.showErrorMessages": false,
+  "dart.renameFilesWithClasses": "always",
+  "dart.previewCommitCharacters": true,
+
+  "dart.openTestView": [
+    "testFailure"
+    // "testRunStart"
+  ],
+
+  "dart.cliConsole": "terminal",
+  "dart.flutterGenerateLocalizationsOnSave": "all",
+  "dart.promptToGetPackages": false,
+  "dart.showTodos": false,
+  "dart.debugSdkLibraries": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.openDevTools": "flutter"
+}
