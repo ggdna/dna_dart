@@ -18,10 +18,6 @@
       "hash": "0x345dd9e198274000"
     },
     {
-      "path": ".gitattributes",
-      "hash": "0x952452f8941a38ae"
-    },
-    {
       "path": ".prettierignore",
       "hash": "0x03b70ee2ea5409da"
     },
