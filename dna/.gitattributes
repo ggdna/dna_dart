@@ -1,3 +1,0 @@
-* text=auto eol=lf
-CHANGELOG.md merge=union
-pubspec.lock merge=ours
