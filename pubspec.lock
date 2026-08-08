@@ -36,10 +36,9 @@ packages:
   base_dna:
     dependency: "direct main"
     description:
-      name: base_dna
-      sha256: f0cdc84d3087e76897c5d9541bb65a5ed4a72d7a0a6807755ad25b165ad3b609
-      url: "https://pub.dev"
-    source: hosted
+      path: "../base_dna"
+      relative: true
+    source: path
     version: "1.0.2"
   boolean_selector:
     dependency: transitive
@@ -132,10 +131,9 @@ packages:
   gg_dna:
     dependency: "direct dev"
     description:
-      name: gg_dna
-      sha256: "26ba86cc0eb220189cebf189110bc184441efd525042170a4a2539f994a45116"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../gg_dna"
+      relative: true
+    source: path
     version: "4.0.1"
   gg_hash:
     dependency: transitive
