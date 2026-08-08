@@ -5,6 +5,7 @@
 ### Changed
 
 - Increase version
+- Publishing dna
 
 ### Fixed
 
