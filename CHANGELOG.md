@@ -10,6 +10,7 @@
 ### Fixed
 
 - Fix issues in markdown overrides
+- Fix versions
 
 ### Removed
 
