@@ -8,17 +8,9 @@ environment:
 
 dependencies:
   # The parent DNA — pulled in transitively by every consumer.
-  base_dna: ^1.0.0
+  base_dna: ^1.0.1
 
 dev_dependencies:
-  gg_dna: ^5.0.0
+  gg_dna: ^4.0.0
   lints: ^6.1.0
   test: ^1.31.2
-
-# Local workspace wiring while the packages are not published yet.
-# Remove once base_dna and gg_dna are on pub.dev.
-dependency_overrides:
-  base_dna:
-    path: ../base_dna
-  gg_dna:
-    path: ../gg_dna
