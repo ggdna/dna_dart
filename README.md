@@ -5,20 +5,23 @@ The DNA of all of our Dart projects. Builds on
 Dart-specific layer, inherited via
 [gg_dna](https://github.com/ggsuite/gg_dna):
 
-- `dna/.vscode/settings.overrides.json` — Dart editor settings merged
+- `dna/dot-vscode/settings.overrides.json` — Dart editor settings merged
   into the base settings
-- `dna/.vscode/extensions.overrides.json` — Dart extension
+- `dna/dot-vscode/extensions.overrides.json` — Dart extension
   recommendations (array join)
-- `dna/.vscode/launch.json`, `tasks.json` — Dart launch/test tooling
-- `dna/doc/develop.overrides.md` — Dart commands for the ticket
-  workflow (pub upgrade, analyze/test, publish)
+- `dna/dot-vscode/launch.json`, `tasks.json` — Dart launch/test tooling
 - `dna/test/dna/dna-test.dart` — the DNA wrapper test shipped to Dart
   consumers (instantiated as `test/dna/dna_test.dart`)
+
+Dotfiles carry a `dot-` prefix inside `dna/` and lose it when
+instantiated (`dna/dot-vscode/…` → `.vscode/…`). Without the escape
+`dart pub publish` drops them, and the layer would reach consumers
+incomplete.
 
 ## Usage
 
 ```bash
-dart pub add dev:dna_dart dev:gg_dna
+dart pub add dna_dart dev:gg_dna
 gg_dna init
 ```
 
@@ -27,8 +30,8 @@ The placed test instantiates and verifies the DNA on every test run
 
 ## Development
 
-`role: "dna"`: the `dna/` folder is authored by hand. The repo
-instantiates its own DNA — run `dart test` after changes; commit first
-(a file the DNA would overwrite must not carry uncommitted work). The
-workspace override in `.gg/dna.json` points at `../base_dna` during
-development.
+`role: "dna"` in `dna/_dna.json`: the `dna/` folder is authored by hand.
+The repo instantiates its own DNA — run `dart test` after changes; commit
+first (a file the DNA would overwrite must not carry uncommitted work).
+During development `gg_localize_refs` points the `base_dna` dependency at
+the local checkout; the DNA config itself never holds paths.

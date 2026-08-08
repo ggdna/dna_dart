@@ -37,10 +37,10 @@ packages:
     dependency: "direct main"
     description:
       name: base_dna
-      sha256: cb02ad7a0b03050fc9c46d83769f98225238ed3470e3e74ed637614c39d6097e
+      sha256: f0cdc84d3087e76897c5d9541bb65a5ed4a72d7a0a6807755ad25b165ad3b609
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -109,10 +109,10 @@ packages:
     dependency: transitive
     description:
       name: gg_args
-      sha256: "222878732924c6228b62db2d19c9b9220b591ba812ce8d0e10e5e72258e5c9d2"
+      sha256: fc48c151593a0fbf3d0407811e8d6260507997ee5ef52e525d3c12999aa519aa
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.0"
+    version: "3.0.0"
   gg_capture_print:
     dependency: transitive
     description:
@@ -133,10 +133,10 @@ packages:
     dependency: "direct dev"
     description:
       name: gg_dna
-      sha256: "130fd20694f20ed9b1454142bb3d8c7f6c14b10b000efc535777e0a0f969c9b3"
+      sha256: "26ba86cc0eb220189cebf189110bc184441efd525042170a4a2539f994a45116"
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.0"
+    version: "4.0.1"
   gg_hash:
     dependency: transitive
     description:

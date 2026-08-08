@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.0.2 - 2026-08-08
+
+### Added
+
+- `example/dna_dart_example.dart` — pub.dev expects an example folder, and
+the sibling DNA packages ship the same one-liner.
+- Add missing example
+
+### Changed
+
+- Resolve DNA like dart or npm packages
+- Set version back to 1
+- Update dependencies
+
+### Fixed
+
+- Fix issues in markdown overrides
+- Fix versions
+
+### Removed
+
+- `dna/doc/develop.overrides.md`. base_dna's `develop.md` describes the
+uniform gg workflow (`gg do commit`, `gg do publish`) and carries no
+`[@tag]` anchors any more, so the Dart-specific command blocks had
+nothing left to override — the engine reported them as skipped on every
+run. dna-ts dropped its pnpm counterpart for the same reason.
+
 ## 1.0.1 - 2026-08-08
 
 ### Changed
