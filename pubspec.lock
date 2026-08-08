@@ -36,11 +36,10 @@ packages:
   base_dna:
     dependency: "direct main"
     description:
-      name: base_dna
-      sha256: f0cdc84d3087e76897c5d9541bb65a5ed4a72d7a0a6807755ad25b165ad3b609
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.2"
+      path: "../base_dna"
+      relative: true
+    source: path
+    version: "1.0.1"
   boolean_selector:
     dependency: transitive
     description:
