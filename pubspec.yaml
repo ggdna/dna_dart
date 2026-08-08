@@ -1,6 +1,6 @@
 name: dna_dart
 description: The DNA of all of our Dart projects - Dart specific configs, docs and agent skills inherited via gg_dna, layered on top of base_dna.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/ggsuite/dna_dart.git
 
 environment:
