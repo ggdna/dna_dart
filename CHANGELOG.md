@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Increase version
+
 ### Fixed
 
 - Fix dna issues
