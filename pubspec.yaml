@@ -11,6 +11,6 @@ dependencies:
   base_dna: ^1.0.1
 
 dev_dependencies:
-  gg_dna: ^4.0.0
+  gg_dna: ^5.0.0
   lints: ^6.1.0
   test: ^1.31.2

@@ -2,3 +2,4 @@
 CHANGELOG.md merge=union
 pubspec.lock merge=ours
 .gg/gg.json merge=ours
+dna/_generated.json merge=ours
