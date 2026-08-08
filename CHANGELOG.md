@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Added
+
+- `example/dna_dart_example.dart` — pub.dev expects an example folder, and
+the sibling DNA packages ship the same one-liner.
+- Add missing example
+
 ### Changed
 
 - Resolve DNA like dart or npm packages
