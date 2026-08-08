@@ -6,6 +6,18 @@
 
 - Resolve DNA like dart or npm packages
 
+### Fixed
+
+- Fix issues in markdown overrides
+
+### Removed
+
+- `dna/doc/develop.overrides.md`. base_dna's `develop.md` describes the
+uniform gg workflow (`gg do commit`, `gg do publish`) and carries no
+`[@tag]` anchors any more, so the Dart-specific command blocks had
+nothing left to override — the engine reported them as skipped on every
+run. dna-ts dropped its pnpm counterpart for the same reason.
+
 ## 1.0.1 - 2026-08-08
 
 ### Changed
