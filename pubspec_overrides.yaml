@@ -6,3 +6,5 @@
 dependency_overrides:
   base_dna:
     path: ../base_dna
+  gg_dna:
+    path: ../gg_dna
