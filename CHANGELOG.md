@@ -6,6 +6,7 @@
 
 - Resolve DNA like dart or npm packages
 - Set version back to 1
+- Update dependencies
 
 ### Fixed
 

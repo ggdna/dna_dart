@@ -39,7 +39,7 @@ packages:
       path: "../base_dna"
       relative: true
     source: path
-    version: "1.0.1"
+    version: "1.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -134,7 +134,7 @@ packages:
       path: "../gg_dna"
       relative: true
     source: path
-    version: "4.0.0"
+    version: "4.0.1"
   gg_hash:
     dependency: transitive
     description:
