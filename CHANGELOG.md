@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0 - 2026-08-09
+
+### Changed
+
+- Increase version
+- Publishing dna
+
+### Fixed
+
+- Fix dna issues
+
 ## 1.0.2 - 2026-08-08
 
 ### Added
