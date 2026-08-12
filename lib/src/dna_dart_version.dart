@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_dart` package.
-const String dnaDartVersion = '1.1.0';
+const String dnaDartVersion = '1.1.1';

@@ -7,5 +7,5 @@
 
   // The parent DNA. Declared as a regular dependency in pubspec.yaml, so
   // pub installs it transitively for every consumer.
-  "layers": ["base_dna"]
+  "layers": ["dna_base"]
 }

@@ -1,16 +1,13 @@
 name: dna_dart
-description: The DNA of all of our Dart projects - Dart specific configs, docs and agent skills inherited via gg_dna, layered on top of base_dna.
-version: 1.1.0
+description: The DNA of all of our Dart projects - Dart specific configs, docs and agent skills inherited via helix, layered on top of dna_base.
+version: 1.1.1
 repository: https://github.com/ggsuite/dna_dart.git
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
 
-dependencies:
-  # The parent DNA — pulled in transitively by every consumer.
-  base_dna: ^1.1.0
-
 dev_dependencies:
-  gg_dna: ^4.1.0
+  dna_base: ^0.0.0
+  helix: ^0.0.2
   lints: ^6.1.0
   test: ^1.31.2

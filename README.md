@@ -1,9 +1,9 @@
 # dna_dart
 
 The DNA of all of our Dart projects. Builds on
-[base_dna](https://github.com/ggsuite/base_dna) and adds the
+[dna_base](https://github.com/ggsuite/dna_base) and adds the
 Dart-specific layer, inherited via
-[gg_dna](https://github.com/ggsuite/gg_dna):
+[helix](https://github.com/ggsuite/helix):
 
 - `dna/dot-vscode/settings.overrides.json` — Dart editor settings merged
   into the base settings
@@ -21,17 +21,17 @@ incomplete.
 ## Usage
 
 ```bash
-dart pub add dna_dart dev:gg_dna
-gg_dna init
+dart pub add dna_dart dev:helix
+helix init
 ```
 
 The placed test instantiates and verifies the DNA on every test run
-(base_dna is pulled in transitively).
+(dna_base is pulled in transitively).
 
 ## Development
 
 `role: "dna"` in `dna/_dna.json`: the `dna/` folder is authored by hand.
 The repo instantiates its own DNA — run `dart test` after changes; commit
 first (a file the DNA would overwrite must not carry uncommitted work).
-During development `gg_localize_refs` points the `base_dna` dependency at
+During development `gg_localize_refs` points the `dna_base` dependency at
 the local checkout; the DNA config itself never holds paths.

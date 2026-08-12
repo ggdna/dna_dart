@@ -38,7 +38,7 @@ linter:
 analyzer:
   # `dna/` holds DNA content, not package source: files are authored in
   # canonical kebab-case and only become Dart files of a consumer after
-  # gg_dna instantiates them (converting names to snake_case).
+  # helix instantiates them (converting names to snake_case).
   exclude:
     - dna/**
     # pnpm links packages into node_modules as live symlinks, so a linked
