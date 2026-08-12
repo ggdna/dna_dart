@@ -90,7 +90,7 @@ packages:
     source: hosted
     version: "3.0.7"
   dna_base:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: dna_base
       sha256: b37adb8c4964ed33aa2f8df0efcdcbbc10e047f1e90176fd34ebd7390092906b
