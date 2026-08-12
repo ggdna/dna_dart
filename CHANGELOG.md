@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Rename gg_dna into helix, base_dna into dna_base
+
 ## 1.1.0 - 2026-08-09
 
 ### Changed
@@ -32,7 +38,7 @@ the sibling DNA packages ship the same one-liner.
 
 ### Removed
 
-- `dna/doc/develop.overrides.md`. base_dna's `develop.md` describes the
+- `dna/doc/develop.overrides.md`. dna_base's `develop.md` describes the
 uniform gg workflow (`gg do commit`, `gg do publish`) and carries no
 `[@tag]` anchors any more, so the Dart-specific command blocks had
 nothing left to override — the engine reported them as skipped on every
@@ -48,7 +54,7 @@ run. dna-ts dropped its pnpm counterpart for the same reason.
 
 ### Added
 
-- Dart layer on top of base_dna (gg_dna 5.0 replica layout)
+- Dart layer on top of dna_base (helix 5.0 replica layout)
 - `.vscode/settings.overrides.json` + `extensions.overrides.json`
 (Dart keys and extensions merged into the base files)
 - `launch.json` and `tasks.json` for Dart debugging and coverage

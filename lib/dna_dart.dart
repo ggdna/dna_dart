@@ -7,7 +7,7 @@
 /// The DNA of all of our Dart projects.
 ///
 /// The payload of this package is its `dna/` folder — the DNA that
-/// [gg_dna](https://github.com/ggsuite/gg_dna) instantiates into every
+/// [helix](https://github.com/ggsuite/helix) instantiates into every
 /// consuming repository. Dart code only exposes the package version, so
 /// consumers can report which DNA they inherit from.
 library;
