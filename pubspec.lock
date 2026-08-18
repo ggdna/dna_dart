@@ -92,10 +92,9 @@ packages:
   dna_base:
     dependency: "direct dev"
     description:
-      name: dna_base
-      sha256: "0ce16105a4b4489e632a1c4c51623a370a946d908eb4831f0d5964bfb4ec8230"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_base"
+      relative: true
+    source: path
     version: "0.3.1"
   file:
     dependency: transitive
