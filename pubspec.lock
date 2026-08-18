@@ -93,10 +93,10 @@ packages:
     dependency: "direct dev"
     description:
       name: dna_base
-      sha256: "3b422c9bb89feb31fc39265cfc99c1ade728834f4addc754960da0ca8475cd2f"
+      sha256: "0ce16105a4b4489e632a1c4c51623a370a946d908eb4831f0d5964bfb4ec8230"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.3.1"
   file:
     dependency: transitive
     description:
@@ -173,10 +173,10 @@ packages:
     dependency: "direct dev"
     description:
       name: helix
-      sha256: "6464101a65e835c937cbf5dbfb3c89fd822e178d0414c81a826bb07e53b954bd"
+      sha256: "05398d8942f858b1743ceb6e1ad7c893d45990bb7dc2b859733f7e646a8088ba"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   http_multi_server:
     dependency: transitive
     description:
