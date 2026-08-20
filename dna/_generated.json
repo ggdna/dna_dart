@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "1.0.2",
       "via": null,
       "hash": "0x705e486e88a93125"
     },
@@ -23,15 +23,14 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xcafb3142eeb19cd3"
+      "hash": "0x1a414855fb785010"
     }
   ],
   "claude": {
     "claudeMdInclude": null
   },
-  "baseVersion": "0.2.0",
+  "baseVersion": "1.0.2",
   "baseHash": "0x705e486e88a93125",
-  "hash": null,
   "instances": [
     {
       "path": ".claude/skills/review-heavy/SKILL.md",
@@ -264,6 +263,10 @@
     {
       "path": "doc/en/guides/review-heavy-guide.md",
       "hash": "0x7ce0d4b014978312"
+    },
+    {
+      "path": "doc/guides/update-dart-and-flutter-sdk-guide.md",
+      "hash": "0xec3ee12564d2b920"
     },
     {
       "path": "doc/hello_world.md",

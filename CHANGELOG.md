@@ -1,6 +1,10 @@
 # Changelog
 
-## Unreleased
+## 1.2.1 - 2026-08-20
+
+### Added
+
+- Add update-dart-and-flutter-sdk-guide.md
 
 ### Changed
 
