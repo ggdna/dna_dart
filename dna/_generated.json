@@ -23,7 +23,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xcafb3142eeb19cd3"
+      "hash": "0x1a414855fb785010"
     }
   ],
   "claude": {
@@ -264,6 +264,10 @@
     {
       "path": "doc/en/guides/review-heavy-guide.md",
       "hash": "0x7ce0d4b014978312"
+    },
+    {
+      "path": "doc/guides/update-dart-and-flutter-sdk-guide.md",
+      "hash": "0xec3ee12564d2b920"
     },
     {
       "path": "doc/hello_world.md",
