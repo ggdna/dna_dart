@@ -5,7 +5,20 @@
   "version": 1,
   "role": "dna",
 
-  // The parent DNA. Declared as a regular dependency in pubspec.yaml, so
-  // pub installs it transitively for every consumer.
-  "layers": ["dna_base"]
+  // The parent DNA: the individual ggdna topic layers, which replace the
+  // deprecated dna_base monolith. Declared as regular dependencies in
+  // pubspec.yaml, so pub installs them transitively for every consumer.
+  // Not dna_ggdna and not dna_helix: this layer carries the Dart topic,
+  // the authoring topic is not part of it.
+  "layers": [
+    "dna_readme",
+    "dna_guides",
+    "dna_translate",
+    "dna_index",
+    "dna_blog",
+    "dna_install",
+    "dna_vscode",
+    "dna_clean_code",
+    "dna_gg"
+  ]
 }
