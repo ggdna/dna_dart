@@ -5,17 +5,97 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.0.2",
+      "resolvedVersion": "1.3.0",
       "via": null,
       "hash": "0x705e486e88a93125"
     },
     {
-      "name": "dna-base",
-      "package": "dna_base",
+      "name": "dna-helix",
+      "package": "@ggdna/dna-helix",
+      "ecosystem": "node",
+      "resolvedVersion": "0.1.0",
+      "via": "dna-readme",
+      "hash": "0xf0af6b5ef166ef2c"
+    },
+    {
+      "name": "dna-readme",
+      "package": "dna_readme",
       "ecosystem": "pub",
-      "resolvedVersion": "0.3.1",
+      "resolvedVersion": "0.1.0",
       "via": null,
-      "hash": "0xc09d5b3ec4b089b6"
+      "hash": "0xb8eeee4e2937ca0d"
+    },
+    {
+      "name": "dna-guides",
+      "package": "dna_guides",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x3bd4be7c009270a6"
+    },
+    {
+      "name": "dna-translate",
+      "package": "dna_translate",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x1c92ce37a7ede19b"
+    },
+    {
+      "name": "dna-index",
+      "package": "dna_index",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x1d92b0add37a1ac7"
+    },
+    {
+      "name": "dna-blog",
+      "package": "dna_blog",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x2aafe5211ebd4365"
+    },
+    {
+      "name": "dna-install",
+      "package": "dna_install",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0xbe88eb4256745ee1"
+    },
+    {
+      "name": "dna-vscode",
+      "package": "dna_vscode",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0x388c565943d37cae"
+    },
+    {
+      "name": "dna-clean-code",
+      "package": "dna_clean_code",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0xacaa785dad36b047"
+    },
+    {
+      "name": "dna-scripts",
+      "package": "@ggdna/dna-scripts",
+      "ecosystem": "node",
+      "resolvedVersion": "0.2.0",
+      "via": "dna-gg",
+      "hash": "0x97a76de8c8e53fb0"
+    },
+    {
+      "name": "dna-gg",
+      "package": "dna_gg",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.1.2",
+      "via": null,
+      "hash": "0xd5744033dd70c6a3"
     },
     {
       "name": "self",
@@ -29,28 +109,84 @@
   "claude": {
     "claudeMdInclude": null
   },
-  "baseVersion": "1.0.2",
+  "baseVersion": "1.3.0",
   "baseHash": "0x705e486e88a93125",
   "instances": [
     {
+      "path": ".claude/skills/blog/SKILL.md",
+      "hash": "0xaa8c556ad7ace267"
+    },
+    {
+      "path": ".claude/skills/cleanup/SKILL.md",
+      "hash": "0xc5c7b7940ab51b83"
+    },
+    {
+      "path": ".claude/skills/code/SKILL.md",
+      "hash": "0x2e5533a3705cb7a3"
+    },
+    {
+      "path": ".claude/skills/commit/SKILL.md",
+      "hash": "0xad0e75ab4d725133"
+    },
+    {
+      "path": ".claude/skills/dna/SKILL.md",
+      "hash": "0x61be0eac3f1a662f"
+    },
+    {
+      "path": ".claude/skills/guide/SKILL.md",
+      "hash": "0x8e9f12ade1bf777a"
+    },
+    {
+      "path": ".claude/skills/index/SKILL.md",
+      "hash": "0xc47429e51622cd7b"
+    },
+    {
+      "path": ".claude/skills/install/SKILL.md",
+      "hash": "0x29c4ded946b50053"
+    },
+    {
+      "path": ".claude/skills/publish/SKILL.md",
+      "hash": "0xb8e70eff3563f75d"
+    },
+    {
+      "path": ".claude/skills/push/SKILL.md",
+      "hash": "0x76c357ca9933317d"
+    },
+    {
+      "path": ".claude/skills/readme/SKILL.md",
+      "hash": "0x6d58a0e09d4ca150"
+    },
+    {
       "path": ".claude/skills/review-heavy/SKILL.md",
-      "hash": "0x6cc313d738ee10ba"
+      "hash": "0xdc2826a30955f359"
     },
     {
       "path": ".claude/skills/review-light/SKILL.md",
-      "hash": "0xee0d59c113a8416e"
+      "hash": "0xad35f3cb30f549dd"
+    },
+    {
+      "path": ".claude/skills/scripts/SKILL.md",
+      "hash": "0xa12593aa0af31ed2"
+    },
+    {
+      "path": ".claude/skills/test/SKILL.md",
+      "hash": "0x9d1d85ae314437ea"
+    },
+    {
+      "path": ".claude/skills/ticket/SKILL.md",
+      "hash": "0xbc13efe6fa9af962"
+    },
+    {
+      "path": ".claude/skills/translate/SKILL.md",
+      "hash": "0x9ade789b3ae72f2e"
+    },
+    {
+      "path": ".claude/skills/vscode/SKILL.md",
+      "hash": "0xa331cf3abdbd1c7b"
     },
     {
       "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xa61b5062f48e430c"
-    },
-    {
-      "path": ".prettierignore",
-      "hash": "0xca9871c5856573ee"
-    },
-    {
-      "path": ".prettierrc",
-      "hash": "0xf2be2549d1b502ae"
+      "hash": "0xf3320fb8f530a565"
     },
     {
       "path": ".vscode/extensions.json",
@@ -69,204 +205,140 @@
       "hash": "0x1cb8187eefd90e3e"
     },
     {
-      "path": "LICENSE",
-      "hash": "0x58ed9cf06c6568b4"
+      "path": "doc/guides/blog-guide.md",
+      "hash": "0x3f3325c5c29dbdc5"
     },
     {
-      "path": "doc/de/guides/blog-guide.md",
-      "hash": "0x0cb680560aebe126"
+      "path": "doc/guides/code-guide-dart.md",
+      "hash": "0x90920ff64d069fc1"
     },
     {
-      "path": "doc/de/guides/clean-code-guide.md",
-      "hash": "0x0e4f480a63a7d3b3"
+      "path": "doc/guides/code-guide-typescript.md",
+      "hash": "0xdcae3a0ceb8c859d"
     },
     {
-      "path": "doc/de/guides/create-repo-guide.md",
-      "hash": "0x03e74c76de55cc1e"
+      "path": "doc/guides/code-guide.md",
+      "hash": "0x20e15676e7fd9bf8"
     },
     {
-      "path": "doc/de/guides/develop-guide.md",
-      "hash": "0x42096315e56bf38c"
+      "path": "doc/guides/develop-guide.md",
+      "hash": "0xbd9fa5efab7af735"
     },
     {
-      "path": "doc/de/guides/develop-without-ai-guide.md",
-      "hash": "0x0377da6db3e7cd10"
+      "path": "doc/guides/develop-without-ai-guide.md",
+      "hash": "0xe74449f72357f23c"
     },
     {
-      "path": "doc/de/guides/dna-guide.md",
-      "hash": "0xa90d1c0ac2cfdb8c"
+      "path": "doc/guides/dna-guide.md",
+      "hash": "0x398f21d069a6ed81"
     },
     {
-      "path": "doc/de/guides/dna-guides-guide.md",
-      "hash": "0xf0f1366958a9cfba"
+      "path": "doc/guides/dna-guides-guide.md",
+      "hash": "0xcf198eaba8b70528"
     },
     {
-      "path": "doc/de/guides/doc-guide.md",
-      "hash": "0x45efd301d2cb6b2f"
-    },
-    {
-      "path": "doc/de/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x32583d01ae1bf01f"
-    },
-    {
-      "path": "doc/de/guides/for-ai/ai-review-guide.md",
-      "hash": "0x66297a639d579bfd"
-    },
-    {
-      "path": "doc/de/guides/index-guide.md",
-      "hash": "0xf2bc8710b84be8d7"
-    },
-    {
-      "path": "doc/de/guides/install-guide.md",
-      "hash": "0xd5c6ef9391758285"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-brew-on-mac-guide.md",
-      "hash": "0x0948a9aa13179a56"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-corepack-guide.md",
-      "hash": "0x961a64d68f5c9de4"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-flutter-guide.md",
-      "hash": "0x9ab368b7adbb5fce"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-gg-guide.md",
-      "hash": "0x4f58102d35952be8"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-gg-workspace-guide.md",
-      "hash": "0xcf038bdce17edd77"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-github-cli-guide.md",
-      "hash": "0x3e315f15531a1bff"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-node-mac-guide.md",
-      "hash": "0x2c47fd29dc280a07"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-node-win-guide.md",
-      "hash": "0xb992d1da24a1cdda"
-    },
-    {
-      "path": "doc/de/guides/install-guide/install-vscode-guide.md",
-      "hash": "0x3335a4223bb125d0"
-    },
-    {
-      "path": "doc/de/guides/multi-language-guide.md",
-      "hash": "0xaeac99d2eafb5538"
-    },
-    {
-      "path": "doc/de/guides/readme-guide.md",
-      "hash": "0x4cc61d3eb708b981"
-    },
-    {
-      "path": "doc/de/guides/review-heavy-guide.md",
-      "hash": "0xae3006e8810936b7"
-    },
-    {
-      "path": "doc/en/guides/blog-guide.md",
-      "hash": "0xf14832462ca7783e"
-    },
-    {
-      "path": "doc/en/guides/clean-code-guide.md",
-      "hash": "0xb21a8f34775f7746"
-    },
-    {
-      "path": "doc/en/guides/create-repo-guide.md",
-      "hash": "0xe94cbb14b4f9c26a"
-    },
-    {
-      "path": "doc/en/guides/develop-guide.md",
-      "hash": "0x5863e1916da62f74"
-    },
-    {
-      "path": "doc/en/guides/develop-without-ai-guide.md",
-      "hash": "0xde6789e089be0963"
-    },
-    {
-      "path": "doc/en/guides/dna-guide.md",
-      "hash": "0x1a96c3a353598d32"
-    },
-    {
-      "path": "doc/en/guides/dna-guides-guide.md",
-      "hash": "0x463551f05deabed6"
-    },
-    {
-      "path": "doc/en/guides/doc-guide.md",
+      "path": "doc/guides/doc-guide.md",
       "hash": "0xf89e7fbaa6f27a40"
     },
     {
-      "path": "doc/en/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x0baaa7fa78710625"
+      "path": "doc/guides/for-ai/ai-dev-guide.md",
+      "hash": "0x3d2812a1dfb025cf"
     },
     {
-      "path": "doc/en/guides/for-ai/ai-review-guide.md",
-      "hash": "0xccbbb0c7737283f3"
+      "path": "doc/guides/for-ai/ai-review-guide.md",
+      "hash": "0x76b2e9fb473bd380"
     },
     {
-      "path": "doc/en/guides/index-guide.md",
-      "hash": "0xdd831e4a9b1e2a3b"
+      "path": "doc/guides/for-ai/review-heavy-guide.md",
+      "hash": "0x556635f9329c4fc1"
     },
     {
-      "path": "doc/en/guides/install-guide.md",
-      "hash": "0xbec7e4ca7dfdab38"
+      "path": "doc/guides/index-guide.md",
+      "hash": "0xc684cc8895b98403"
     },
     {
-      "path": "doc/en/guides/install-guide/install-brew-on-mac-guide.md",
+      "path": "doc/guides/install-guide.md",
+      "hash": "0x4c0b8fb54b2c4636"
+    },
+    {
+      "path": "doc/guides/install-guide/install-azure-cli-guide.md",
+      "hash": "0xe0206afa5fc5b085"
+    },
+    {
+      "path": "doc/guides/install-guide/install-azure-npm-feed-guide.md",
+      "hash": "0x902df0b6dc38a92b"
+    },
+    {
+      "path": "doc/guides/install-guide/install-brew-on-mac-guide.md",
       "hash": "0x5bf663dc011c4330"
     },
     {
-      "path": "doc/en/guides/install-guide/install-corepack-guide.md",
+      "path": "doc/guides/install-guide/install-corepack-guide.md",
       "hash": "0x906ecd19a3b2366b"
     },
     {
-      "path": "doc/en/guides/install-guide/install-flutter-guide.md",
+      "path": "doc/guides/install-guide/install-flutter-guide.md",
       "hash": "0x883c40d890bd3d5e"
     },
     {
-      "path": "doc/en/guides/install-guide/install-gg-guide.md",
+      "path": "doc/guides/install-guide/install-gg-guide.md",
       "hash": "0xa093431b02c398d6"
     },
     {
-      "path": "doc/en/guides/install-guide/install-gg-workspace-guide.md",
+      "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
       "hash": "0x846766914bb56a84"
     },
     {
-      "path": "doc/en/guides/install-guide/install-github-cli-guide.md",
+      "path": "doc/guides/install-guide/install-github-cli-guide.md",
       "hash": "0xcce9cbcd56f78b1f"
     },
     {
-      "path": "doc/en/guides/install-guide/install-node-mac-guide.md",
+      "path": "doc/guides/install-guide/install-node-mac-guide.md",
       "hash": "0x1f4eb7cf63b5c9db"
     },
     {
-      "path": "doc/en/guides/install-guide/install-node-win-guide.md",
+      "path": "doc/guides/install-guide/install-node-win-guide.md",
       "hash": "0x782756eb0ff83a0d"
     },
     {
-      "path": "doc/en/guides/install-guide/install-vscode-guide.md",
+      "path": "doc/guides/install-guide/install-vscode-guide.md",
       "hash": "0xa0da6a6877bb94c2"
     },
     {
-      "path": "doc/en/guides/multi-language-guide.md",
-      "hash": "0x94e86cf8bc356a74"
+      "path": "doc/guides/readme-dna-guide.md",
+      "hash": "0xe4da5d4b98181236"
     },
     {
-      "path": "doc/en/guides/readme-guide.md",
+      "path": "doc/guides/readme-guide.md",
       "hash": "0x16b48114a38e395f"
     },
     {
-      "path": "doc/en/guides/review-heavy-guide.md",
-      "hash": "0x7ce0d4b014978312"
+      "path": "doc/guides/scripts-guide.md",
+      "hash": "0x426857c389049083"
+    },
+    {
+      "path": "doc/guides/test-guide-dart.md",
+      "hash": "0x0d3f63cd348a4aaa"
+    },
+    {
+      "path": "doc/guides/test-guide-typescript.md",
+      "hash": "0xd7c89e8faff8341e"
+    },
+    {
+      "path": "doc/guides/test-guide.md",
+      "hash": "0x01268029d45515a3"
+    },
+    {
+      "path": "doc/guides/translate-guide.md",
+      "hash": "0x636217bf10513749"
     },
     {
       "path": "doc/guides/update-dart-and-flutter-sdk-guide.md",
       "hash": "0xec3ee12564d2b920"
+    },
+    {
+      "path": "doc/guides/vscode-guide.md",
+      "hash": "0x6776b27c7cbedb98"
     },
     {
       "path": "doc/hello_world.md",
@@ -277,20 +349,20 @@
       "hash": "0x4f48f2db12a5ca19"
     },
     {
-      "path": "doc/templates/blog-template-en.md",
+      "path": "doc/templates/blog-template.md",
       "hash": "0x72f96f22e4ee4851"
     },
     {
-      "path": "doc/templates/class_template.dart",
-      "hash": "0x7b51e8e0492a184b"
+      "path": "doc/templates/index-template.jsonc",
+      "hash": "0x16c3a8d50c72ed6d"
     },
     {
-      "path": "doc/templates/index-template.md",
-      "hash": "0x8249f77900b5a5d3"
+      "path": "doc/templates/readme-dna-template.md",
+      "hash": "0x3d60299e4fd61d1b"
     },
     {
       "path": "doc/templates/readme-template.md",
-      "hash": "0x337f489cf7b19984"
+      "hash": "0xbc3cb615f24ba857"
     },
     {
       "path": "scripts/delete-feature-branch.js",
@@ -310,7 +382,7 @@
     },
     {
       "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
+      "hash": "0xd101f8b49454b888"
     },
     {
       "path": "scripts/functions/get-version.js",
