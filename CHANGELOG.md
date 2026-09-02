@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Split the DNA authoring topic into dna_helix and install the org DNA
+
 ## 1.2.1 - 2026-08-20
 
 ### Added
