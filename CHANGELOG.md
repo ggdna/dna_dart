@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Declare dna_scripts explicitly instead of relying on dna_gg
+
 ## 1.3.0 - 2026-09-02
 
 ### Changed
