@@ -78,7 +78,7 @@
       "package": "dna_scripts",
       "ecosystem": "pub",
       "resolvedVersion": "0.1.0",
-      "via": "dna-gg",
+      "via": null,
       "hash": "0x9ee08ef13ab4c8d3"
     },
     {
