@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.1 - 2026-09-07
+
+### Changed
+
+- Declare dna_scripts explicitly instead of relying on dna_gg
+- Point the manifest at the new dna_gg and dna_scripts
+
 ## 1.3.0 - 2026-09-02
 
 ### Changed
