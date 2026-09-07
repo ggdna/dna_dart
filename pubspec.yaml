@@ -15,8 +15,8 @@ dependencies:
   dna_install: ^0.1.0
   dna_vscode: ^0.1.0
   dna_clean_code: ^0.1.0
-  dna_scripts: ^0.1.0
-  dna_gg: ^0.1.2
+  dna_scripts: ^0.2.1
+  dna_gg: ^0.2.0
 
 dev_dependencies:
   helix: ^1.3.0
