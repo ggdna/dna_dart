@@ -77,17 +77,17 @@
       "name": "dna-scripts",
       "package": "dna_scripts",
       "ecosystem": "pub",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.2.1",
       "via": null,
-      "hash": "0x9ee08ef13ab4c8d3"
+      "hash": "0xe3092339b83504a1"
     },
     {
       "name": "dna-gg",
       "package": "dna_gg",
       "ecosystem": "pub",
-      "resolvedVersion": "0.1.2",
+      "resolvedVersion": "0.2.0",
       "via": null,
-      "hash": "0xd5744033dd70c6a3"
+      "hash": "0x97c559b0151610d4"
     },
     {
       "name": "self",
@@ -366,7 +366,7 @@
     },
     {
       "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
+      "hash": "0xd101f8b49454b888"
     },
     {
       "path": "scripts/functions/get-version.js",
