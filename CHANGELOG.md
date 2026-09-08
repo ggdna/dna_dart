@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Deprecated
+
+- Replace the deprecated dna_base in the layer comment and the DNA guide
+
 ## 1.3.1 - 2026-09-07
 
 ### Changed

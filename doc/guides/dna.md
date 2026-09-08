@@ -11,7 +11,7 @@ Two things are easy to confuse:
 - **`helix` is the engine** — the tool that resolves, merges and
   instantiates DNA. It carries no project conventions of its own.
 - **The DNA is the content** — it lives in the DNA packages
-  (`dna_base`, `dna_dart`, `dna-ts`, `ds-dna`, …). That is where you
+  (`dna_dart`, `dna-ts`, `dna_guides`, `ds-dna`, …). That is where you
   edit anything you want your projects to inherit.
 
 ## What a DNA Is
@@ -52,12 +52,12 @@ once. Layers are named by the **package name** they are declared under in
 `pubspec.yaml`/`package.json` — never by a path:
 
 ```jsonc
-{ "version": 1, "layers": ["dna_base"] }
+{ "version": 1, "layers": ["dna_dart"] }
 ```
 
 A DNA published to both registries is one layer, not two: the npm scope is
-dropped when folding a name to its identity, so `@tssuite/base-dna` and
-`dna_base` mean the same thing.
+dropped when folding a name to its identity, so `@ggdna/dna-guides` and
+`dna_guides` mean the same thing.
 
 For local development nothing DNA-specific is needed — `gg_localize_refs`
 points `pubspec_overrides.yaml`/`pnpm-workspace.yaml` at the sibling
@@ -105,7 +105,7 @@ Two rules follow from this:
 
   ```text
   Generated files modified by hand:
-  Move edits from doc/develop.md to dna_base/dna/doc/develop.md.
+  Move edits from doc/develop.md to dna_guides/dna/doc/develop.md.
   ```
 
 Getting started in a consumer:
@@ -211,7 +211,7 @@ instances are rewritten automatically.
 {
   "version": 1,                 // required
   "role": "project",            // "dna" for DNA repositories
-  "layers": ["dna_base"],       // package names, in application order
+  "layers": ["dna_dart"],       // package names, in application order
   "vars": { "projectName": "my-project" },
   "fileNaming": "snake_case",   // camelCase | kebab-case | keep
   "claude": { "claudeMdInclude": ["doc/conventions"] }

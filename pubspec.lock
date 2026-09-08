@@ -165,10 +165,10 @@ packages:
     dependency: "direct main"
     description:
       name: dna_vscode
-      sha256: b9c352cfb3e39a7df7e3a6206f898074579bdff987495d3855f05e848a213153
+      sha256: "4d4d70f5d365e80623351157445818ef6d3e2d9b9cfa5427d1d153ca2ec2a066"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   file:
     dependency: transitive
     description:
@@ -253,10 +253,10 @@ packages:
     dependency: "direct dev"
     description:
       name: helix
-      sha256: d8738d0a8812f8df7a2c984f7aaf6f01b883bf6672b54c5f9a940232d61e87a7
+      sha256: ee828b3ba233fc965c1f8b39307ea1e1483641da09b3fd10b1426864688172a0
       url: "https://pub.dev"
     source: hosted
-    version: "1.3.1"
+    version: "1.5.1"
   http_multi_server:
     dependency: transitive
     description:
