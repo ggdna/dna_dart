@@ -1,6 +1,10 @@
 # Changelog
 
-## Unreleased
+## 1.4.0 - 2026-09-30
+
+### Changed
+
+- Update the ggdna topic layers to their latest versions
 
 ### Deprecated
 
