@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Update the ggdna topic layers to their latest versions
+
 ### Deprecated
 
 - Replace the deprecated dna_base in the layer comment and the DNA guide
