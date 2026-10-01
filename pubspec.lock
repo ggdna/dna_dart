@@ -109,10 +109,10 @@ packages:
     dependency: "direct main"
     description:
       name: dna_gg
-      sha256: "318156eaba327896b4ed2574725ebb5da4b69f60b4a0ba05e29a4c24dd3ccbe5"
+      sha256: a6108d86d02702efb96374578f11a48ef46259a8596fec66553688f17df18b0d
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.1"
+    version: "0.6.0"
   dna_guides:
     dependency: "direct main"
     description:

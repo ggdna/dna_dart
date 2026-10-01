@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.1 - 2026-10-01
+
+### Changed
+
+- Use dna_gg 0.6.0
+
 ## 1.4.0 - 2026-09-30
 
 ### Changed
