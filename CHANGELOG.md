@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Take the current ggdna topic layers with the scoped blog rules; set the organization variables they require in dna/_vars.json, consumers must set their own
+
 ## 1.4.1 - 2026-10-01
 
 ### Changed
