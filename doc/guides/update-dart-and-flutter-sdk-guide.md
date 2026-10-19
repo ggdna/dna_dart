@@ -11,22 +11,22 @@ We want to update all of them.
 
 ## Create a ticket
 
-We have already a gg workspace called ggsuite.
-All ggsuite repos are added to the master.
+We have already a gg workspace called ggdna.
+All ggdna repos are added to the master.
 
 ```bash
-cd ~/dev/ggsuite
+cd ~/dev/ggdna
 gg do create ticket 134 -m"Update dart and flutter"
 cd 134
 ```
 
-## Add all ggsuite repos to the ticket
+## Add all ggdna repos to the ticket
 
 Because copy right header do not affect dependencies, we can add the
 repos with option `--no-localize`.
 
 ```bash
-gg do add --org ggsuite --no-localize
+gg do add --org ggdna --no-localize
 ```
 
 ## Update dart to latest version
