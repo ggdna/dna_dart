@@ -1,5 +1,5 @@
 name: dna_dart
-description: The DNA of all of our Dart projects - Dart specific configs, docs and agent skills inherited via helix, layered on top of the ggdna topic layers.
+description: "Gives a Dart repo the ggdna topic layers plus the Dart editor, launch and task settings and the SDK update guide."
 version: 2.0.0
 repository: https://github.com/ggdna/dna_dart.git
 

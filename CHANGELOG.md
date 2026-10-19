@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Rewrite the README after the README DNA guide
+
 ## 2.0.0 - 2026-10-19
 
 ### Changed
