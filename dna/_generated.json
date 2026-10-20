@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.12.0",
+      "resolvedVersion": "1.13.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -13,9 +13,9 @@
       "name": "dna-readme",
       "package": "dna_readme",
       "ecosystem": "pub",
-      "resolvedVersion": "0.3.0",
+      "resolvedVersion": "0.3.1",
       "via": null,
-      "hash": "0xb8eeee4e2937ca0d"
+      "hash": "0x6678ec2e509f3dd9"
     },
     {
       "name": "dna-guides",
@@ -85,17 +85,17 @@
       "name": "dna-github",
       "package": "dna_github",
       "ecosystem": "pub",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.1.1",
       "via": "dna-gg",
-      "hash": "0xae24c13573219f91"
+      "hash": "0xf541b93b3dc7995d"
     },
     {
       "name": "dna-gg",
       "package": "dna_gg",
       "ecosystem": "pub",
-      "resolvedVersion": "0.10.0",
+      "resolvedVersion": "0.12.0",
       "via": null,
-      "hash": "0x2437308eb192d742"
+      "hash": "0x80b4e958c7ac9afb"
     },
     {
       "name": "self",
@@ -110,7 +110,7 @@
     "claudeMdInclude": null,
     "claudeMdFromDna": true
   },
-  "baseVersion": "1.12.0",
+  "baseVersion": "1.13.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
@@ -131,19 +131,23 @@
     },
     {
       "path": ".claude/skills/gg-publish/SKILL.md",
-      "hash": "0x61626e5e2425d9ab"
+      "hash": "0xcdef2684fcaaac5a"
     },
     {
       "path": ".claude/skills/gg-push/SKILL.md",
       "hash": "0x140e1b8d6cbe222e"
     },
     {
+      "path": ".claude/skills/gg-review/SKILL.md",
+      "hash": "0x09df48b6f6bf1de6"
+    },
+    {
       "path": ".claude/skills/gg-ticket/SKILL.md",
-      "hash": "0xe5f827904be72c00"
+      "hash": "0xbad0fb03b46e951f"
     },
     {
       "path": ".claude/skills/gg/SKILL.md",
-      "hash": "0x0e643054f49cf6a2"
+      "hash": "0x1eb3897cb31ec13b"
     },
     {
       "path": ".claude/skills/guide/SKILL.md",
@@ -159,7 +163,7 @@
     },
     {
       "path": ".claude/skills/readme/SKILL.md",
-      "hash": "0xbf195193ac2c142c"
+      "hash": "0x1efbb8544f520a99"
     },
     {
       "path": ".claude/skills/review-heavy/SKILL.md",
@@ -231,7 +235,7 @@
     },
     {
       "path": "doc/guides/develop-guide.md",
-      "hash": "0x5ac3e76536b3848b"
+      "hash": "0xd34231caa0a6b6b6"
     },
     {
       "path": "doc/guides/develop-without-ai-guide.md",
@@ -247,7 +251,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x1dfc03fca83f6a07"
+      "hash": "0x6c987855b8294571"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
@@ -311,15 +315,19 @@
     },
     {
       "path": "doc/guides/readme-dna-guide.md",
-      "hash": "0x3d9ef913822ce24d"
+      "hash": "0xd959e81b2050f1d5"
     },
     {
       "path": "doc/guides/readme-guide.md",
-      "hash": "0xb5ce137a97660e94"
+      "hash": "0x328c485b370cb26f"
     },
     {
       "path": "doc/guides/scripts-guide.md",
       "hash": "0x9d26fa802be8b39a"
+    },
+    {
+      "path": "doc/guides/setup-github-guide.md",
+      "hash": "0x836d4ca942a58b9c"
     },
     {
       "path": "doc/guides/test-guide-dart.md",
@@ -359,15 +367,15 @@
     },
     {
       "path": "doc/templates/readme-dna-template.md",
-      "hash": "0xf7c193a01d8fee93"
+      "hash": "0xa07ecac047ebc948"
     },
     {
       "path": "doc/templates/readme-template.md",
-      "hash": "0x507cc05b29fd6083"
+      "hash": "0x2f7579b53aaa5ccd"
     },
     {
-      "path": "guides/setup-github-guide.md",
-      "hash": "0x8681f11bbfaa0c00"
+      "path": "scripts/check-readme.js",
+      "hash": "0xa6f71f212f3deead"
     },
     {
       "path": "scripts/delete-feature-branch.js",
