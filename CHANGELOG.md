@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Take dna_gg 0.12, so the ecosystem layers carry the requirements gate and the current gg skills
+
 ## 2.0.0 - 2026-10-19
 
 ### Changed

@@ -96,13 +96,20 @@ gg do code
 
 ## Plan (optional)
 
+Requirements come before the plan. If the project management repo keeps
+requirements (`doc/requirements`) and none of its accepted requirements
+covers the ticket, engineer them with the user first — with
+`/plan-requirements` if the repo has it — and plan the ticket only after
+that. Bug tickets are the exception, they name their bug file.
+
 Ask the user whether the ticket is planned before it is implemented.
 
 If yes, write the plan into the project management repo, following its
 `doc/guides/pm-repo-guide.md` if present, otherwise its other guides: the
-goal, the affected repos, the rough steps and open questions. Without a
-project management repo, put the plan into the ticket itself. Let the user
-review the plan and revise it until they confirm it.
+goal, the requirements it fulfils, the affected repos, the rough steps and
+open questions. Without a project management repo, put the plan into the
+ticket itself. Let the user review the plan and revise it until they confirm
+it.
 
 ## Implement (optional)
 
@@ -173,6 +180,14 @@ gg do push
 
 ## Review
 
+Document the change in every repo first, so the documentation lands in
+the pull requests and is reviewed with the code:
+
+- Run `/blog` in every repo of the ticket that has
+  `doc/guides/blog-guide.md`, the project management repo included
+- Update the index.jsonc and README.md
+- Commit and push again
+
 Let the user confirm that the review phase is started.
 
 ```bash
@@ -186,9 +201,6 @@ Afterwards load the review-light skill and execute it.
 
 ## Publish
 
-- Run `/blog` in every repo of the ticket that has
-  `doc/guides/blog-guide.md`, the project management repo included
-- Update the index.jsonc and README.md
 - Check `mergeMessage` and `versionIncrement` in `.gg/publish_config.json`
   of each repo — `gg do publish` offers them as defaults
 - If the ticket was only planned, publish the project management repo only
