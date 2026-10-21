@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Take dna_gg 0.13, which keeps the Claude Code prompts in the project management repo
+
 ## 2.0.1 - 2026-10-20
 
 ### Changed
