@@ -16,7 +16,7 @@ dependencies:
   dna_vscode: ^0.4.0
   dna_clean_code: ^0.2.1
   dna_scripts: ^0.3.0
-  dna_gg: ^0.13.0
+  dna_gg: ^1.0.0
 dev_dependencies:
   helix: ^1.13.0
   lints: ^6.1.0
