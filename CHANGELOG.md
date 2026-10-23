@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0 - 2026-10-23
+
+### Changed
+
+- Take dna_gg 1.0.0
+
 ## 2.0.2 - 2026-10-21
 
 ### Changed
