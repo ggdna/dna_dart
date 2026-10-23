@@ -1,6 +1,6 @@
 name: dna_dart
 description: The DNA of all of our Dart projects - Dart specific configs, docs and agent skills inherited via helix, layered on top of the ggdna topic layers.
-version: 2.1.0
+version: 2.1.1
 repository: https://github.com/ggdna/dna_dart.git
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   dna_blog: ^0.3.0
   dna_install: ^0.2.0
   dna_vscode: ^0.4.0
-  dna_clean_code: ^0.2.1
+  dna_clean_code: ^0.2.2
   dna_scripts: ^0.3.0
   dna_gg: ^1.0.0
 dev_dependencies:
