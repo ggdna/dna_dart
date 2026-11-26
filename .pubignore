@@ -20,8 +20,8 @@ build
 .gg/publish_state.json
 
 # dna-readme
-/doc/guides/
-/doc/templates/
+/doc/*/guides/
+/doc/*/templates/
 /scripts/
 
 # dna-gg
