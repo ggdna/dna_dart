@@ -6,6 +6,10 @@
 
 - Keep the docs language first: doc/<lang>/ for documentation, pm/<lang>/<yyyy>-Q<n>/ for everything planned; guides in English, German and Farsi; languages set by dnaLanguages
 
+### Fixed
+
+- Write the blog posts of the language first docs, read percent encoded links in the migration script, fix the remaining old doc paths
+
 ## 2.1.2 - 2026-11-26
 
 ### Changed
