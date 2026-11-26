@@ -71,7 +71,7 @@
       "ecosystem": "pub",
       "resolvedVersion": "0.5.1",
       "via": null,
-      "hash": "0xeac48c10ffc91f19"
+      "hash": "0x4b0a9c8a68fd4549"
     },
     {
       "name": "dna-scripts",
@@ -103,7 +103,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x20c01b2f0619eeef"
+      "hash": "0x7c7d35e138171758"
     }
   ],
   "claude": {
@@ -242,11 +242,11 @@
     },
     {
       "path": "doc/de/guides/code-guide-dart.md",
-      "hash": "0xb47af577cbb210ab"
+      "hash": "0x7a5ac5175f1a49bc"
     },
     {
       "path": "doc/de/guides/code-guide-typescript.md",
-      "hash": "0xb9e868dcb72505fc"
+      "hash": "0x007a1095b787d19b"
     },
     {
       "path": "doc/de/guides/code-guide.md",
@@ -366,7 +366,7 @@
     },
     {
       "path": "doc/de/guides/update-dart-and-flutter-sdk-guide.md",
-      "hash": "0xab121cf40ce75588"
+      "hash": "0xb939b23710f8b4e9"
     },
     {
       "path": "doc/de/guides/vscode-guide.md",
@@ -550,11 +550,11 @@
     },
     {
       "path": "doc/fa/guides/code-guide-dart.md",
-      "hash": "0x0ef18c12144facfd"
+      "hash": "0x5566904c82683cd0"
     },
     {
       "path": "doc/fa/guides/code-guide-typescript.md",
-      "hash": "0x08c7602d465003bc"
+      "hash": "0x7adb549f3dc72cde"
     },
     {
       "path": "doc/fa/guides/code-guide.md",
@@ -674,7 +674,7 @@
     },
     {
       "path": "doc/fa/guides/update-dart-and-flutter-sdk-guide.md",
-      "hash": "0x5b2ad31d6089dd04"
+      "hash": "0xf919287d1366e0f9"
     },
     {
       "path": "doc/fa/guides/vscode-guide.md",
