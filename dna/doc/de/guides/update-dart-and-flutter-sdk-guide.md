@@ -8,7 +8,6 @@ Wir wollen alle aktualisieren.
 
 - `134` durch die Nummer des eigenen Tickets
 
-
 ## @ticket-2 Ein Ticket anlegen <a id="create-a-ticket"></a>
 
 Es gibt bereits einen gg-Workspace namens dnaGitOrg.
@@ -55,7 +54,6 @@ Update also flutter SDK to the latest version.
 gg do exec cmd "dart fix --apply"
 ```
 
-
 ## @upgrade Alle Abhängigkeiten aktualisieren <a id="upgrade-all-dependencies"></a>
 
 ```bash
@@ -81,4 +79,3 @@ Committe die Änderungen in allen hinzugefügten Repos
 ```bash
  gg do publish
 ```
-

@@ -8,7 +8,6 @@
 
 - `134` با شماره‌ی تیکت شما
 
-
 ## @ticket-2 ساختن یک تیکت <a id="create-a-ticket"></a>
 
 از قبل یک فضای کاری (workspace) gg به نام dnaGitOrg داریم.
@@ -55,7 +54,6 @@ Update also flutter SDK to the latest version.
 gg do exec cmd "dart fix --apply"
 ```
 
-
 ## @upgrade ارتقای همه‌ی وابستگی‌ها <a id="upgrade-all-dependencies"></a>
 
 ```bash
@@ -81,4 +79,3 @@ gg do upgrade deps
 ```bash
  gg do publish
 ```
-
