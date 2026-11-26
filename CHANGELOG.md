@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.2 - 2026-11-26
+
+### Changed
+
+- Tag every section and mark the package as a layer
+
 ## 2.1.1 - 2026-10-23
 
 ## 2.1.0 - 2026-10-23
