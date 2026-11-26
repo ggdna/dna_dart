@@ -5,6 +5,7 @@
 ### Changed
 
 - Keep the docs language first: doc/<lang>/ for documentation, pm/<lang>/<yyyy>-Q<n>/ for everything planned; guides in English, German and Farsi; languages set by dnaLanguages
+- Apply the review: migration script handles Windows paths, two-letter folders, links that leave the repo, link titles and dated blog folders; check-readme reads dnaLanguages from the DNA; translated code blocks and anchors match English; aud_pm keeps its architecture pages
 
 ### Fixed
 
