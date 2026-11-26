@@ -3,6 +3,10 @@
   // layer of its own instantiation.
   "version": 1,
 
+  // Published as a DNA layer: helix requires a tag on every section of
+  // dna/ markdown, so the layers above can override each one.
+  "isLayer": true,
+
   // The parent DNA: the individual ggdna topic layers. Declared as
   // regular dependencies in pubspec.yaml, so pub installs them
   // transitively for every consumer.

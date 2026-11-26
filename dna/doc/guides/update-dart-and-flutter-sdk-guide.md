@@ -4,12 +4,12 @@ Update Dart and Flutter SDK
 
 We want to update all of them.
 
-## Replace in this ticket
+## @ticket Replace in this ticket
 
 - `134` by the number of your ticket
 
 
-## Create a ticket
+## @ticket-2 Create a ticket
 
 We have already a gg workspace called dnaGitOrg.
 All dnaGitOrg repos are added to the master.
@@ -20,7 +20,7 @@ gg do create ticket 134 -m"Update dart and flutter"
 cd 134
 ```
 
-## Add all dnaGitOrg repos to the ticket
+## @dnagitorg Add all dnaGitOrg repos to the ticket
 
 Because copy right header do not affect dependencies, we can add the
 repos with option `--no-localize`.
@@ -29,7 +29,7 @@ repos with option `--no-localize`.
 gg do add --org dnaGitOrg --no-localize
 ```
 
-## Update dart to latest version
+## @dart Update dart to latest version
 
 ```bash
 flutter upgrade
@@ -49,20 +49,20 @@ sdk: ">=3.13.0<4.0.0"
 Update also flutter SDK to the latest version.
 ```
 
-## Apply dart auto-fixes
+## @dart-auto Apply dart auto-fixes
 
 ```bash
 gg do exec cmd "dart fix --apply"
 ```
 
 
-## Upgrade all dependencies
+## @upgrade Upgrade all dependencies
 
 ```bash
 gg do upgrade deps
 ```
 
-## Publish without uploading to registry
+## @publish Publish without uploading to registry
 
 Commit the changes in all added repos
 
@@ -70,13 +70,13 @@ Commit the changes in all added repos
  gg do commit -m"Update dart and flutter"
 ```
 
-## Create a pull request
+## @pull Create a pull request
 
 ```bash
  gg do review
 ```
 
-## Create a pull request
+## @pull-request Create a pull request
 
 ```bash
  gg do publish
