@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.0.0 - 2026-11-26
+
+### Changed
+
+- Keep the docs language first: doc/<lang>/ for documentation, pm/<lang>/<yyyy>-Q<n>/ for everything planned; guides in English, German and Farsi; languages set by dnaLanguages
+- Apply the review: migration script handles Windows paths, two-letter folders, links that leave the repo, link titles and dated blog folders; check-readme reads dnaLanguages from the DNA; translated code blocks and anchors match English; aud_pm keeps its architecture pages
+
+### Fixed
+
+- Write the blog posts of the language first docs, read percent encoded links in the migration script, fix the remaining old doc paths
+
 ## 2.1.2 - 2026-11-26
 
 ### Changed
