@@ -13,7 +13,7 @@
       "name": "dna-readme",
       "package": "dna_readme",
       "ecosystem": "pub",
-      "resolvedVersion": "0.4.1",
+      "resolvedVersion": "0.5.0",
       "via": null,
       "hash": "0xfb507a8f6df4e668"
     },
@@ -21,7 +21,7 @@
       "name": "dna-guides",
       "package": "dna_guides",
       "ecosystem": "pub",
-      "resolvedVersion": "0.3.1",
+      "resolvedVersion": "0.4.0",
       "via": null,
       "hash": "0xe7278eb369ec123e"
     },
@@ -29,7 +29,7 @@
       "name": "dna-translate",
       "package": "dna_translate",
       "ecosystem": "pub",
-      "resolvedVersion": "0.5.1",
+      "resolvedVersion": "0.6.0",
       "via": null,
       "hash": "0x5f5ce89a81e1d577"
     },
@@ -37,7 +37,7 @@
       "name": "dna-index",
       "package": "dna_index",
       "ecosystem": "pub",
-      "resolvedVersion": "0.3.1",
+      "resolvedVersion": "0.4.0",
       "via": null,
       "hash": "0x532ce1a52531ab4e"
     },
@@ -45,7 +45,7 @@
       "name": "dna-blog",
       "package": "dna_blog",
       "ecosystem": "pub",
-      "resolvedVersion": "0.5.1",
+      "resolvedVersion": "0.6.0",
       "via": null,
       "hash": "0xc345e17cd58e47f9"
     },
@@ -53,7 +53,7 @@
       "name": "dna-install",
       "package": "dna_install",
       "ecosystem": "pub",
-      "resolvedVersion": "0.4.0",
+      "resolvedVersion": "0.5.0",
       "via": null,
       "hash": "0x3c900ab652461666"
     },
@@ -61,7 +61,7 @@
       "name": "dna-vscode",
       "package": "dna_vscode",
       "ecosystem": "pub",
-      "resolvedVersion": "0.5.1",
+      "resolvedVersion": "0.6.0",
       "via": null,
       "hash": "0x46884c4501b1446f"
     },
@@ -69,7 +69,7 @@
       "name": "dna-clean-code",
       "package": "dna_clean_code",
       "ecosystem": "pub",
-      "resolvedVersion": "0.5.1",
+      "resolvedVersion": "0.6.0",
       "via": null,
       "hash": "0x4b0a9c8a68fd4549"
     },
@@ -77,15 +77,15 @@
       "name": "dna-scripts",
       "package": "dna_scripts",
       "ecosystem": "pub",
-      "resolvedVersion": "0.4.1",
+      "resolvedVersion": "0.5.0",
       "via": null,
       "hash": "0x9463bfb42bfd4adf"
     },
     {
       "name": "dna-github",
-      "package": "@ggdna/dna-github",
-      "ecosystem": "node",
-      "resolvedVersion": "0.2.1",
+      "package": "dna_github",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.3.0",
       "via": "dna-gg",
       "hash": "0x22444a547c485b79"
     },
@@ -93,7 +93,7 @@
       "name": "dna-gg",
       "package": "dna_gg",
       "ecosystem": "pub",
-      "resolvedVersion": "1.9.2",
+      "resolvedVersion": "2.0.0",
       "via": null,
       "hash": "0x69460d3415cdf522"
     },
